@@ -1,0 +1,11 @@
+- get an idea of what the user currently reads or likes, by: - asking to upload photos of bookshelf;
+                                                             - asking manual preferences 
+                                                             - manually inputting books read
+-clean and process this book data - obtain title and authors; then, get basic metadata about these books
+- llm generates summaries about this data and enhanced ratings (based on system prompt)
+- get an output of the books and store it in a df (maybe in sql for the future)
+
+
+- AI takes in the data as context
+- provides recommendations on basis of this context
+- provides the reason for each book being selected
